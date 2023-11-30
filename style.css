@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh; /* Adjust to your desired height */
+}
+
+.input-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.output-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#characterCanvas {
+    width: 1024px; /* Set an appropriate width */
+    height: 1024px; /* Set an appropriate height */
+}
